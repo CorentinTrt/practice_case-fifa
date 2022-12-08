@@ -1,0 +1,18 @@
+version: '3.9'
+
+name: starter-next
+
+services:
+  frontend-standalone:
+    platform: linux/x86_64
+    container_name: standalone-next-js
+    image: standalone-starter-next-js
+    ports:
+      - 3000:3000
+    build:
+      context: ../
+      dockerfile: build/dev.Dockerfile
+    volumes:
+      - ../src:/app/src
+    # env_file:
+    #   - .env
