@@ -1,0 +1,16 @@
+John: qw
+Caroline: as
+Lisy: zx
+Sara: er
+Alexandre: df
+Alexia: cv
+Patrick: ty
+Nicolas: gh
+Johan: bn
+Sasha: ui
+Chris: jk
+Emma: m,
+Jessica: op
+Pedro: l;
+Ana: ./
+Hugo: []
