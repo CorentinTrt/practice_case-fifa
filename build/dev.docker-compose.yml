@@ -1,11 +1,11 @@
 version: '3.9'
 
-name: starter-next
+name: case-fifa
 
 services:
   frontend-standalone:
     platform: linux/x86_64
-    container_name: standalone-next-js
+    container_name: standalone-next-js-fifa
     image: standalone-starter-next-js
     ports:
       - 3000:3000
