@@ -1,0 +1,71 @@
+.history-row {
+	width: 100%;
+	height: fit-content;
+	margin: 0 0 2vmin;
+	padding: 2vmin;
+	border: 1px solid V.$c-black;
+	border-radius: 5px;
+
+	.score {
+		@include M.flex-centered-centered;
+
+		width: 100%;
+		margin-bottom: 3vmin;
+
+		.left {
+			@include M.flex-column-centered-centered;
+
+			width: 50%;
+		}
+
+		.right {
+			@include M.flex-column-centered-centered;
+
+			width: 50%;
+		}
+	}
+
+	.divider {
+		background-color: V.$c-black;
+
+		&.v {
+			width: 2px;
+			height: 12vmin;
+		}
+
+		&.h {
+			width: 45vmin;
+			height: 1px;
+			margin: 0 auto 2vmin;
+		}
+	}
+
+	.team-name {
+		@include T.h-s;
+
+		margin: 0 0 1vmin;
+		text-align: center;
+	}
+
+	.goal {
+		@include T.h-xl;
+	}
+
+	.details {
+		@include M.flex-centered-centered;
+
+		justify-content: space-between;
+
+		.duration {
+			@include T.body-m;
+
+			margin: 0 0 0 5vmin;
+		}
+
+		.date {
+			@include T.body-m;
+
+			margin: 0 5vmin 0 0;
+		}
+	}
+}
