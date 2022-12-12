@@ -8,7 +8,7 @@ services:
     container_name: prod.standalone-next-js-fifa
     image: prod.standalone-starter-next-js
     ports:
-      - 3000:80
+      - 3000:3000
     build:
       context: ../
       dockerfile: build/prod.Dockerfile
