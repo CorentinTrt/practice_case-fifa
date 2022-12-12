@@ -1,13 +1,15 @@
 import Head from 'next/head';
 import s from './home.module.scss';
 
+import LeaderBoard from '@blocs/LeaderBoard';
+
 const HomePage = () => {
 	return (
 		<div className={s['home']}>
 			<Metas />
 
 			<div className={s['home--content']}>
-				<h1 className={s['title']}>Next.Js - Starter</h1>
+				<LeaderBoard />
 			</div>
 		</div>
 	);
@@ -16,8 +18,8 @@ const HomePage = () => {
 const Metas = () => {
 	return (
 		<Head>
-			<title>Starter Next.Js - Home</title>
-			<meta name='description' content='Home page of the Next.Js starter' />
+			<title>Fifa Scores - Scoreboard</title>
+			<meta name='description' content='Home page of the Fifa tracking tool' />
 		</Head>
 	);
 };
