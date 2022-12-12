@@ -14,5 +14,6 @@ services:
       dockerfile: build/dev.Dockerfile
     volumes:
       - ../src:/app/src
+      - ../public:/app/public
     # env_file:
     #   - .env
