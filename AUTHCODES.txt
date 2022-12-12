@@ -1,16 +1,24 @@
-John: qw
-Caroline: as
-Lisy: zx
-Sara: er
-Alexandre: df
-Alexia: cv
-Patrick: ty
-Nicolas: gh
-Johan: bn
-Sasha: ui
-Chris: jk
-Emma: m,
-Jessica: op
-Pedro: l;
-Ana: ./
-Hugo: []
+Swimming Unicorns
+  John: qw
+  Caroline: as
+Flying Beavers
+  Lisy: zx
+  Sara: er
+Crying Mooses
+  Alexandre: df
+  Alexia: cv
+Shouting Frogs
+  Patrick: ty
+  Nicolas: gh
+Diving Chikens
+  Johan: bn
+  Sasha: ui
+Jumping Sloths
+  Chris: jk
+  Emma: m,
+Running Chikens
+  Jessica: op
+  Pedro: l;
+Dancing Worms
+  Ana: ./
+  Hugo: []
