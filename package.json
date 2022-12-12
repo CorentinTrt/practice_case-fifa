@@ -16,10 +16,9 @@
 		"prettier": "prettier --write .",
 		"lint": "next lint",
 		"lint::scss": "stylelint \"**/*.scss\"",
-		"///": "-- DOCKER --",
+		"///": "-- POSTINSTALL --",
 		"docker-dev": "docker-compose -f build/dev.docker-compose.yml up --build --force-recreate",
 		"docker-prod": "docker-compose -f docker-compose.prod.yml up --build --force-recreate",
-		"///": "-- POSTINSTALL --",
 		"postinstall": "husky install"
 	},
 	"dependencies": {
@@ -32,6 +31,7 @@
 	},
 	"devDependencies": {
 		"@svgr/webpack": "^6.5.1",
+		"@types/css-modules": "^1.0.2",
 		"eslint": "8.29.0",
 		"eslint-config-next": "13.0.6",
 		"eslint-config-prettier": "^8.5.0",
