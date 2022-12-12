@@ -49,10 +49,15 @@
 		@include M.flex-column-centered-centered;
 		@include M.absolute-centered;
 
-		width: 50vw;
+		width: 100vw;
 		height: fit-content;
 		padding: 4vmin;
 		background-color: V.$c-white;
+
+		@include M.on-desktop {
+			width: 50vw;
+			height: fit-content;
+		}
 
 		input,
 		select {
