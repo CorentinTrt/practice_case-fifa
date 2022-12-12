@@ -42,17 +42,17 @@
 
 #### Make data persistants with a Node.Js / Golang backend + mongoDB since we are at the begining of the project and the data structure can change
 
--> Allow to replace all the research logic (copyTeamForRanking.ts, etc.) by query to the database (less charge on the user's machine or the backend server)
+- Allow to replace all the research logic (copyTeamForRanking.ts, etc.) by query to the database (less charge on the user's machine or the backend server)
 
 #### Migrate all calculation logic to backend
 
 #### Improve sorting for ranking
 
--> It's only sorted by wins and goals but the ties case is missing (e.g: 1 win, 1 tie, 1 loose VS 1 win, 2 ties, 0 loose)
+- It's only sorted by wins and goals but the ties case is missing (e.g: 1 win, 1 tie, 1 loose VS 1 win, 2 ties, 0 loose)
 
 #### Restructure utils
 
--> I try to use SOLID principles as much as i can while coding. It's improving reliability but it's increasing the amount of files and the global project complexity. So they needs to be organized well (we can use "action system" like sort, copy, etc OR "data system" like teams, players, etc.)
+- I try to use SOLID principles as much as i can while coding. It's improving reliability but it's increasing the amount of files and the global project complexity. So they needs to be organized well (we can use "action system" like sort, copy, etc OR "data system" like teams, players, etc.)
 
 ### + 1 month
 
@@ -60,25 +60,25 @@
 
 #### Components optimizations
 
--> Put inputs into component with conditionnal rendering depending of the type
+- Put inputs into component with conditionnal rendering depending of the type
 
 #### Rendering optimizations
 
--> Use `React.lazy()` and `<suspens fallback={loading_animation}></suspens>` to render only component when needed
--> Use custom router to render pages conditionnaly
--> Very usefull for low connection (like on mobile sometimes)
+- Use `React.lazy()` and `<suspens fallback={loading_animation}></suspens>` to render only component when needed
+- Use custom router to render pages conditionnaly
+- Very usefull for low connection (like on mobile sometimes)
 
 #### Match details
 
--> Goals timing, duration with prolongations, penalties, etc.
+- Goals timing, duration with prolongations, penalties, etc.
 
 #### Team's pages
 
--> Create pages for team to track performance and more infos
+- Create pages for team to track performance and more infos
 
 #### Bet system
 
--> Implementing a bet system related to match outcomes
+- Implementing a bet system related to match outcomes
 
 #### Ligue & Tournament
 
