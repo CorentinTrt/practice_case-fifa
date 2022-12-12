@@ -1,3 +1,4 @@
+@use "./mixins.scss" as M;
 @use "./variables.scss" as V;
 
 @mixin h-xl {
@@ -51,7 +52,12 @@
 
 @mixin body-s {
 	font-family: V.$f-montserrat;
-	font-size: 2vmin;
+	font-size: 3vmin;
 	font-weight: 200;
-	line-height: 2.5vmin;
+	line-height: 4vmin;
+
+	@include M.on-desktop {
+		font-size: 2vmin;
+		line-height: 2.5vmin;
+	}
 }
