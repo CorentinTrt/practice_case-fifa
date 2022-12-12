@@ -1,0 +1,17 @@
+version: '3.9'
+
+name: prod_case-fifa
+
+services:
+  frontend-standalone:
+    platform: linux/x86_64
+    container_name: prod.standalone-next-js-fifa
+    image: prod.standalone-starter-next-js
+    ports:
+      - 3000:3000
+      - 443:443
+      - 80:80
+      - 8080:8080
+    build:
+      context: ../
+      dockerfile: build/prod.Dockerfile
