@@ -1,0 +1,53 @@
+.scorerow {
+	@include M.flex-centered-centered;
+
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 0 2vmin;
+	padding: 3vmin;
+	border: 1px solid V.$c-black;
+
+	.details {
+		@include M.flex-centered-centered;
+
+		&--rank {
+			@include T.h-xl;
+
+			margin: 0 6vmin 0 0;
+
+			&.first {
+				color: V.$c-gold;
+			}
+
+			&.second {
+				color: V.$c-silver;
+			}
+
+			&.third {
+				color: V.$c-bronze;
+			}
+		}
+
+		&--team-label {
+			@include T.h-m;
+
+			margin: 0 10vmin 0 0;
+		}
+
+		&--players {
+			@include M.flex-column-centered-centered;
+
+			gap: 3vmin;
+
+			.player {
+				text-align: center;
+			}
+		}
+	}
+
+	.stats {
+		p {
+			@include T.body-s;
+		}
+	}
+}
