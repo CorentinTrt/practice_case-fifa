@@ -1,7 +1,7 @@
 type Player = {
-	id: String;
-	name: String;
-	authCode: String;
+	id: string;
+	name: string;
+	authCode: string;
 };
 
 const players: Player[] = [
