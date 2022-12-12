@@ -8,7 +8,7 @@
 	],
 	"private": true,
 	"scripts": {
-		"/": "-- DOCKER --",
+		"/": "-- NEXT --",
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
@@ -16,9 +16,10 @@
 		"prettier": "prettier --write .",
 		"lint": "next lint",
 		"lint::scss": "stylelint \"**/*.scss\"",
-		"///": "-- POSTINSTALL --",
+		"///": "-- DOCKER --",
 		"docker-dev": "docker-compose -f build/dev.docker-compose.yml up --build --force-recreate",
 		"docker-prod": "docker-compose -f build/prod.docker-compose.yml up --build --force-recreate",
+		"////": "-- POSTINSTALL --",
 		"postinstall": "husky install"
 	},
 	"dependencies": {
